@@ -1,11 +1,11 @@
 name: koin_bloc
 description: A package to make it easier to use Bloc library with Koin.dart.
-version: 0.2.0-nullsafety.1
-homepage: https://github.com/pbissonho/koin.dart
+version: 0.2.1
+homepage: https://github.com/datdt-97/koin.dart
 publish_to: none
 
 environment:
-  sdk: ">=2.12.0-0 <3.0.0"
+  sdk: ">=2.18.6 <3.0.0"
 
 dependencies:
   bloc: ^8.1.0
