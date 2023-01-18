@@ -1,6 +1,7 @@
-import 'package:flutter_test/flutter_test.dart';
 import 'package:koin/koin.dart';
 import 'package:koin_test/koin_test.dart';
+import 'package:test/fake.dart';
+import 'package:test/test.dart';
 
 // Just a few services to exemplify.
 class ServiceA {

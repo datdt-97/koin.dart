@@ -78,8 +78,10 @@ class ExampleButton extends StatefulWidget {
 class _ExampleButtonState extends State<ExampleButton> {
   @override
   Widget build(BuildContext context) {
-    return FlatButton(
-      color: Colors.grey,
+    return ElevatedButton(
+      style: ElevatedButton.styleFrom(
+        foregroundColor: Colors.grey,
+      ),
       onPressed: () async {
         loadKoinModules(widget.modules);
 

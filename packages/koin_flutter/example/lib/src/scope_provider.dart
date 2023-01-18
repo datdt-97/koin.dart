@@ -28,8 +28,10 @@ class _FirstPageState extends State<FirstPage> with ScopeStateMixin {
             Center(
               child: Text(bloc.value.toString()),
             ),
-            FlatButton(
-              color: Colors.red,
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                foregroundColor: Colors.red,
+              ),
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (BuildContext context) {

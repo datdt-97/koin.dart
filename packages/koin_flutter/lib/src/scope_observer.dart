@@ -3,10 +3,10 @@ import 'package:koin/internals.dart';
 
 // ignore: avoid_classes_with_only_static_members
 class FlutterKoinScopeObserver {
-  static ScopeWidgetObersever scopeWidgetObserver = ScopeWidgetObersever();
+  static ScopeWidgetObserver scopeWidgetObserver = ScopeWidgetObserver();
 }
 
-class ScopeWidgetObersever {
+class ScopeWidgetObserver {
   Map<String, ScopeWidgetContext> scopeContexts = {};
 
   void onCreateScope(ScopeWidgetContext scopeWidgetContext) {
@@ -24,6 +24,6 @@ class ScopeWidgetContext {
     this.scope,
   );
 
-  final Widget widgetScopeSource;
+  final Widget? widgetScopeSource;
   Scope scope;
 }

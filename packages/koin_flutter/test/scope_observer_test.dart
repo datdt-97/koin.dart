@@ -34,7 +34,7 @@ class _FirstPageState extends State<FirstPage> with ScopeStateMixin {
             Center(
               child: Text(bloc.id.toString()),
             ),
-            FlatButton(
+            ElevatedButton(
               key: buttonKey,
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) {
@@ -81,7 +81,7 @@ void main() {
 
     final firstPageFinder = find.byKey(firstPageKey);
     final secondPageFinder = find.byKey(secondPageKey);
-    final buttonFinder = find.byType(FlatButton);
+    final buttonFinder = find.byType(ElevatedButton);
     final textFinder = find.text('10');
 
     expect(firstPageFinder, findsOneWidget);
