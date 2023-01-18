@@ -12,10 +12,10 @@ dependencies:
   koin:
     git:
       url: https://github.com/datdt-97/koin.dart
-      path: /packages/koin
+      path: packages/koin
   
 dev_dependencies:
   koin_test:
     git:
       url: https://github.com/datdt-97/koin.dart
-      path: /packages/koin_test
+      path: packages/koin_test
