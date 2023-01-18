@@ -14,12 +14,12 @@ dependencies:
   koin_flutter:
     git:
       url: https://github.com/datdt-97/koin.dart
-      path: /packages/koin_flutter
+      path: packages/koin_flutter
   expandable: ^5.0.1
   koin:
     git:
       url: https://github.com/datdt-97/koin.dart
-      path: /packages/koin
+      path: packages/koin
 
 dev_dependencies:
   flutter_test:
